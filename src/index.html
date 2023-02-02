@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Button</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: slateblue;
+        }
+        #myImage {
+            height: 250px;
+            display: flex;
+            width: 350px;
+            align-items: center;
+            justify-content: center;
+            float: center;
+            margin-left: 40%;
+            margin-right: 60px;
+        }
+        h2 {
+            color: aqua;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 1px;
+        }
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            background: aliceblue;
+            padding: 0 5px;
+            margin-left: 5px 180px;
+            border: 2px solid aliceblue;
+            border-radius: 50px;
+            color: forestgreen;
+            width: 110px;
+        }
+        .buttons {
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: space-between;
+            background-color: aliceblue;
+            border: 5px solid dodgerblue;
+            border-radius: 50px;
+            color: blue;
+            font-size: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-left: 45%;
+            top: 3%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Download Button</h2>
+    <img id="myImage" src="./images/building-3.jpg" alt="Home"/>
+    <button type="button" class="buttons" data-download="myImage">Download</button>
+   
+    <script src="app.js"></script>
+</body>
+</html>
